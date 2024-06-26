@@ -4,7 +4,7 @@ This Go application processes receipts and calculates points based on specific r
 
 ## Endpoint: Process Receipts
 
-- `POST`: `/receipts/process`: Takes in a JSON receipt and returns a JSON object with an ID generated.
+- `POST`: `/receipts/process`: Takes in a JSON receipt as payload and returns a JSON object with an ID generated.
 - `GET `: `/receipts/{id}/points`: Adds a new receipt and returns a unique ID.
 - `GET `: `/receipts`: Lists all receipts.
 
